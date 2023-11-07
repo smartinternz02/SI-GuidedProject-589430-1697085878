@@ -1,0 +1,55 @@
+body {
+    background-image: url('artificial-intelligence.jpg'); 
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+.form-container {
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+.prediction-container {
+    text-align: center;
+}
+.container {
+    text-align: center;
+}
+
+.content {
+    margin-top: 20px;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
